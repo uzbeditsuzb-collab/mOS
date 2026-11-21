@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">mOS</string>
+
+    <!-- Home -->
+    <string name="home_swipe_hint">Swipe up for apps</string>
+    <string name="home_open_apps">All apps</string>
+    <string name="home_not_default">mOS isn\'t your Home app yet</string>
+    <string name="home_set_default">Set as default</string>
+
+    <!-- Long-press menu -->
+    <string name="menu_title">Home screen</string>
+    <string name="menu_wallpaper">Wallpaper</string>
+    <string name="menu_default_home">Default Home app</string>
+    <string name="menu_system_settings">Android settings</string>
+    <string name="choose_wallpaper">Choose wallpaper</string>
+
+    <!-- Drawer -->
+    <string name="drawer_title">Apps</string>
+    <string name="drawer_close">Close apps</string>
+
+    <!-- Control Center (native) -->
+    <string name="cc_torch_unavailable">Flashlight is in use or unavailable</string>
+    <string name="cc_allow_dnd">Allow mOS under Do not disturb access, then try again</string>
+    <string name="cc_allow_settings">Turn on “Modify system settings” for mOS, then try again</string>
+
+    <!-- Errors -->
+    <string name="error_launch_failed">Couldn\'t open this app</string>
+    <string name="error_no_handler">No app available for this action</string>
+</resources>
