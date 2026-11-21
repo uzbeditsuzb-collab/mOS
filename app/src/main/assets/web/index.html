@@ -115,6 +115,7 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--acc,#8FB8DE);ou
 #set.on{transform:none;pointer-events:auto}
 .pane{position:absolute;inset:0;padding:var(--sbh) 0 var(--nbh);display:flex;flex-direction:column;background:var(--bgs);transition:transform var(--dur) var(--ease)}
 #sub{transform:translateX(100%)}#sub.on{transform:none}
+#ph.reduced #set{opacity:0}#ph.reduced #set.on{opacity:1}
 #ph.reduced .pane{transition:opacity var(--dur)}#ph.reduced #sub{transform:none;opacity:0;pointer-events:none}#ph.reduced #sub.on{opacity:1;pointer-events:auto}
 .sh{display:flex;align-items:center;gap:4px;height:56px;padding:0 8px;flex:none}
 .sh h2{margin:0;font-size:20px;font-weight:600}
